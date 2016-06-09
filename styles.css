@@ -1,0 +1,56 @@
+body {
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image > p {
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+p {
+  font-size: 18px;
+}
+
+.misc {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+nav {
+  font-size: 18px;
+  background: url(images/waves-background-image.jpg);
+  background-size: 300px 178.5px;
+  background-repeat: 
+}
+
+a:visited {
+  color: green;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    font-size: 25px;
+  }
+}
